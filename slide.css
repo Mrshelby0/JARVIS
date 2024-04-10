@@ -1,0 +1,30 @@
+.t.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .t slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .t slide {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .t slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .t slide p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
